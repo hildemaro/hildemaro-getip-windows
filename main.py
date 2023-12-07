@@ -40,5 +40,5 @@ local_ip_button.pack()
 public_ip_button = tk.Button(window, text="Obtener IP Pública", command=get_public_ip_address)
 public_ip_button.pack()
 
-# Ejecutar la aplicación
+# Ejecutar la aplicación de ChatGPT
 window.mainloop()
