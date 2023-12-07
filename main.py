@@ -36,7 +36,7 @@ public_ip_label.pack(pady=10)
 local_ip_button = tk.Button(window, text="Obtener IP Local", command=get_local_ip_address)
 local_ip_button.pack()
 
-# Botón para obtener la dirección IP pública
+# Botón para obtener la dirección IP públic a
 public_ip_button = tk.Button(window, text="Obtener IP Pública", command=get_public_ip_address)
 public_ip_button.pack()
 
